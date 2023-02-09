@@ -1,0 +1,367 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 90px;
+    padding: 0;
+}
+
+/* =======top bar======*/
+
+#topbar {
+    background: #444444;
+    height: 40px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    display: flex ;
+    flex-direction: row;
+    justify-content: left ;   
+}
+.topbar-element {
+    margin: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left ;
+    justify-content:center;
+    justify-content: space-between;
+}
+.topbar-element a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* =======top bar======*/
+
+/* =======Header======*/
+header {
+    background: #fff;
+    height: 86px;
+    position:sticky ;
+    top:0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+  
+}
+header img {
+    margin: 0;
+    padding: 0;
+    height: 86px;
+}
+header h1 {
+    font-size:larger;
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav ul li {
+    margin: 0px;
+    padding: 0px 10px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #222222;
+    background-color: rgb(229, 229, 229);
+    
+    font-size: 18px;
+    font-style:normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+
+
+}
+#contacto {
+    background-color: #444444;
+    color: #fff;
+}
+#capacitacion {
+    background-color: #444444;
+    color: #fff;
+}
+#consultoria {
+    background-color: #444444;
+    color: #fff;
+}
+#seg-ind {
+    background-color: #444444;
+    color: #fff;
+}
+#inicio {
+    background-color: #444444;
+    color: #fff;
+}
+.nav__list ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+  /*  position: absolute; 
+    left: 28px;
+    top: calc(100%+30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff; */
+
+}
+/*
+.nav__dropdown {
+    display: flex;
+    flex-direction: column;
+}
+*/
+/* =======Header======*/
+
+
+/* =======Main Home======*/
+main {
+    margin: 0;
+    padding: 0;
+ /*   height: 1000px; */
+    background: rgb(225, 231, 230);
+    
+}
+.hero {
+    width: 100%;
+    height: 50vh;
+    background: url(../imagenes/oficina.bmp) top left;
+        background-image: url(../imagenes/oficina.bmp);
+        background-position-x: left;
+        background-position-y: top;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+.hero__cont {
+    margin:10%;
+    padding: 0;
+    width: 50%;
+
+}
+
+.hero__vmg {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #444444;
+    font-size:50px;
+    text-align: left;
+}
+.hero__div {
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    
+}
+.presentacion {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.presentacion__somos{
+    margin: 20px;
+    width: 60%;
+    height: 100px;
+}
+.presentacion__somos p {
+    border: #222222;
+    border-style: solid;
+    padding: 20px;
+}
+.presentacion__foto-actividades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+}
+.presentacion__foto-actividades img {
+    margin: 20px;
+    width: 50%;
+}
+.presentacion__foto-actividades p {
+    margin: 20px;
+    width: 50%;
+    border: #222222;
+    border-style: solid;
+    padding: 20px;
+}
+
+
+/* =======Main Home Seg Industrial======*/
+#seg-industrial {
+    margin: 0;
+    padding: 0;
+ /*   height: 2300px; */
+    background: rgb(225, 231, 230);
+}
+#programa-de-salud, #analisis-de-riesgo, #subcontratos, #productos-quimicos, 
+#permisos-de-trabajo, #proteccion-de-maquinas, #cambios-de-ingenieria, #requisitos-legales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    border: #222222;
+    border-style: solid;
+    padding: 20px;
+
+}
+#programa-de-salud img, #analisis-de-riesgo img, #subcontratos img, #productos-quimicos img,
+#permisos-de-trabajo img, #proteccion-de-maquinas img, #cambios-de-ingenieria img, #requisitos-legales img {
+    width: 25%;
+    margin: 0 20 0 0;
+}
+.titulo-texto {
+    display: flex;
+    flex-direction: column;
+}
+/* =======Main Consultoria======*/
+.hero-consultoria {
+    width: 100%;
+    height: 50vh;
+    background: url(../imagenes/control-seg.bmp) top left;
+        background-image: url(../imagenes/control-seg.bmp);
+        background-position-x: left;
+        background-position-y: top;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* =======formulario Contactos======*/
+fieldset {
+    margin: 2%;
+    background-color:rgb(211, 233, 237);
+}
+legend {
+    text-align: center;
+    margin: 0;
+    font-size: large;
+}
+main h1 {
+    margin: 0 0 0 5%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+}
+form input {
+    margin: 5px 5px 5px 5% ;
+    padding: 0;
+    width: 25%;
+    display: inline;
+    text-align: left;
+}
+
+form label {
+    display:inline-block;
+}
+form textarea {
+    margin: 0 5%;
+    padding: 0;
+    width: 50%;
+    height: 100px;
+}
+#terms {
+    margin: 5px 3px 5px 5%;
+    padding: 0;
+    width: auto;
+}
+.button {
+    margin: 5px 14%;
+    width: 7%;
+    text-align: center;
+
+}
+/* =======formulario Contactos======*/
+
+/* =======Footer======*/
+
+footer {
+    height: 80px;
+    width: 100%;
+    padding:  0;
+    color: #ffff;
+    font-size: 14px;
+    background: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    z-index: 200;
+    
+    
+}
+#company {
+    margin: 0;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hys {
+    margin: 0px;
+   padding-bottom: 2%;
+}
+#since {
+    margin: 0px;
+    font-style: italic;
+    font-size: medium;
+}
+.arrow_upward {
+    margin: 0;
+    height: 80px;
+    width: 48px;
+    font-size: 48px;
+}
+ footer div span.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48;
+    font-size: 48;
+    padding-top: 10;
+}
+.aux {
+    margin: 0;
+    height: 80px;
+    width: 48px;
+    color: #222222;
+}
+/* =======Footer======*/
